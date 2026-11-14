@@ -15,8 +15,8 @@ Imagine two people find a iPhone 18. There is only one left. The shop must show 
 
 The [evidence folder](evidence/Adebayo_Oluremi_301920976_README.md) holds the original test outputs and visual copies of selected output lines.
 
-## Run the same tests
-Code used for test
+## Run the same tests : Code used for test
+
 
 ```bash
 set -euo pipefail
