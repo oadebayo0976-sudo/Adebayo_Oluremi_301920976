@@ -11,7 +11,7 @@ Imagine two people find a iPhone 18. There is only one left. The shop must show 
 | 3. Transactions and concurrency | [What happens when two buyers want the last one](portfolio-3-transactions-concurrency/Adebayo_Oluremi_301920976_README.md) |
 | 4. NoSQL and advanced data models | [How one product card holds different details](portfolio-4-nosql/Adebayo_Oluremi_301920976_README.md) |
 | 5. Distributed and cloud databases | [How a second database helps when the first one fails](portfolio-5-distributed-cloud/Adebayo_Oluremi_301920976_README.md) |
-| Final documentation | [Three-page editable Word summary](Adebayo_Oluremi_301920976_MIT8103_Temu_Summary.docx) |
+| Final documentation | [Three-page final PDF summary](Adebayo_Oluremi_301920976_MIT8103_Temu_Summary.pdf) |
 
 The [evidence folder](evidence/Adebayo_Oluremi_301920976_README.md) holds the original test outputs and visual copies of selected output lines.
 
