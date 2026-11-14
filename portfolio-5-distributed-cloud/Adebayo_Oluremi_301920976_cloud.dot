@@ -1,0 +1,12 @@
+digraph {
+graph [rankdir=LR,pad=.2,bgcolor=white,nodesep=.28,ranksep=.30]
+node [shape=box,style="rounded,filled",fillcolor="#e7f0fa",color="#416383",fontname="DejaVu Sans",fontsize=13]
+edge [color="#416383",fontname="DejaVu Sans",fontsize=10]
+shop [label="Checkout"]
+main [label="Main database\nSaves orders"]
+copy [label="Second database\nReceives a copy"]
+reports [label="Routine reports"]
+shop -> main
+main -> copy [label="copies changes"]
+copy -> reports
+}
