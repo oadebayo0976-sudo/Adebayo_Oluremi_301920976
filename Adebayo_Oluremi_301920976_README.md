@@ -1,4 +1,4 @@
-# Temu marketplace · Advanced Database Systems
+# Temu Online marketplace · Advanced Database Systems
 
 **Selected organisation:** Temu, the popular online marketplace. This is a classroom simulation with fictional products, buyers, sellers and orders. The database design is for this assignment.
 
