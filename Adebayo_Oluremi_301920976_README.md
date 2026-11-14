@@ -16,8 +16,7 @@ Imagine two people find a iPhone 18. There is only one left. The shop must show 
 The [evidence folder](evidence/Adebayo_Oluremi_301920976_README.md) holds the original test outputs and visual copies of selected output lines.
 
 ## Run the same tests
-
-Use a fresh PostgreSQL database and set your normal connection settings. From this repository's root, with the PostgreSQL command-line client, Python 3 and MongoDB Shell installed, run:
+Code used for test
 
 ```bash
 set -euo pipefail
