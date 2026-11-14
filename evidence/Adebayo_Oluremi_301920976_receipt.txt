@@ -1,0 +1,5 @@
+ order_id | customer_name  | product_name | quantity | unit_price_ngn | line_total_ngn 
+----------+----------------+--------------+----------+----------------+----------------
+      101 | Sample Buyer A | iPhone 18    |        1 |      450000.00 |      450000.00
+(1 row)
+

@@ -1,0 +1,13 @@
+NOTICE:  index "products_category_price_idx" does not exist, skipping
+DROP INDEX
+ANALYZE
+CREATE INDEX
+Identical query results: 37 products
+before: Gather Merge / Sort / Seq Scan; 10.323 ms; 1597 buffer hits; 0 buffer reads
+before: Gather Merge / Sort / Seq Scan; 9.893 ms; 1597 buffer hits; 0 buffer reads
+before: Gather Merge / Sort / Seq Scan; 11.0 ms; 1597 buffer hits; 0 buffer reads
+before median: 10.323 ms
+after: Incremental Sort / Index Scan; 0.211 ms; 49 buffer hits; 0 buffer reads
+after: Incremental Sort / Index Scan; 0.131 ms; 49 buffer hits; 0 buffer reads
+after: Incremental Sort / Index Scan; 0.141 ms; 49 buffer hits; 0 buffer reads
+after median: 0.141 ms

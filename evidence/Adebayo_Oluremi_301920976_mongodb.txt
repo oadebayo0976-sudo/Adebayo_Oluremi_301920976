@@ -1,0 +1,38 @@
+MongoDB 7.0.26
+{
+  acknowledged: true,
+  insertedId: 1,
+  matchedCount: 0,
+  modifiedCount: 0,
+  upsertedCount: 1
+}
+{
+  acknowledged: true,
+  insertedId: 2,
+  matchedCount: 0,
+  modifiedCount: 0,
+  upsertedCount: 1
+}
+PASS: electronics search returned the iPhone 18 and the power bank kept its own fields
+[
+  {
+    _id: 1,
+    name: 'iPhone 18',
+    category: 'Electronics',
+    priceNgn: 450000,
+    attributes: {
+      colour: 'Blue',
+      storageGb: 256
+    }
+  }
+]
+{
+  _id: 2,
+  name: 'Portable power bank',
+  category: 'Electronics',
+  priceNgn: 8500,
+  attributes: {
+    batteryCapacityMah: 10000,
+    connector: 'Universal Serial Bus'
+  }
+}

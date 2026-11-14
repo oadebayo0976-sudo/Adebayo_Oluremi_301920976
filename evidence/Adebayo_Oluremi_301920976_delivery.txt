@@ -1,0 +1,21 @@
+BEGIN
+INSERT 0 1
+INSERT 0 4
+COMMIT
+psql:portfolio-3-transactions-concurrency/delivery-demo.sql:36: NOTICE:  PASS: a second delivery for order 101 was rejected
+psql:portfolio-3-transactions-concurrency/delivery-demo.sql:36: NOTICE:  PASS: an update for an unknown delivery was rejected
+psql:portfolio-3-transactions-concurrency/delivery-demo.sql:36: NOTICE:  PASS: an unsupported delivery status was rejected
+DO
+ order_id | tracking_code | latest_status |       updated_at       
+----------+---------------+---------------+------------------------
+      101 | DEMO-501      | Delivered     | 2026-11-14 14:00:00+00
+(1 row)
+
+      status      |       updated_at       
+------------------+------------------------
+ Preparing        | 2026-11-14 08:00:00+00
+ Dispatched       | 2026-11-14 09:00:00+00
+ Out for delivery | 2026-11-14 11:00:00+00
+ Delivered        | 2026-11-14 14:00:00+00
+(4 rows)
+

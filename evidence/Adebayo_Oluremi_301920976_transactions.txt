@@ -1,0 +1,11 @@
+A sees stock inside its open transaction: 0
+Another connection sees committed stock before A commits: 1
+Another connection sees order 101 before commit: 0
+B waits for the stock row lock
+B receives no stock row after A commits: 
+Committed order 101 is visible: 1
+Stock left for iPhone 18: 0
+Total orders after the race: 1
+Power bank stock inside the rollback example: 11
+Power bank stock after rollback: 12
+Order 102 after rollback: 0

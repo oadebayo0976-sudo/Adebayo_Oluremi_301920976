@@ -1,0 +1,34 @@
+                                                       version                                                       
+---------------------------------------------------------------------------------------------------------------------
+ PostgreSQL 17.11 (Debian 17.11-0+deb13u1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+(1 row)
+
+BEGIN
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+COMMIT
+BEGIN
+INSERT 0 2
+INSERT 0 2
+INSERT 0 2
+INSERT 0 159998
+COMMIT
+psql:portfolio-1-database-design/checks.sql:18: NOTICE:  PASS: zero price rejected
+psql:portfolio-1-database-design/checks.sql:18: NOTICE:  PASS: negative stock rejected
+psql:portfolio-1-database-design/checks.sql:18: NOTICE:  PASS: unknown customer rejected
+DO
+ products_loaded 
+-----------------
+          160000
+(1 row)
+
+ product_name | stock 
+--------------+-------
+ iPhone 18    |     1
+(1 row)
+
