@@ -4,7 +4,7 @@
 
 Imagine two people find a iPhone 18. There is only one left. The shop must show the product, let one person buy it, and keep an accurate record of who got it.
 
-| Assignment activity | Follow the example |
+| Assignment activity | Linkage |
 |---|---|
 | 1. Database design and modelling | [How the shop remembers products and orders](portfolio-1-database-design/Adebayo_Oluremi_301920976_README.md) |
 | 2. Query processing and optimisation | [How the shop finds products faster](portfolio-2-query-optimisation/Adebayo_Oluremi_301920976_README.md) |
