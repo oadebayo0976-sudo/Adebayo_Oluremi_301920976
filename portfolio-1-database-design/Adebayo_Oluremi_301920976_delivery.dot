@@ -1,0 +1,10 @@
+digraph {
+graph [rankdir=LR,pad=.18,nodesep=.28,ranksep=.32]
+node [shape=box,style="rounded,filled",fillcolor="#e7f0fa",color="#416383",fontname="DejaVu Sans",fontsize=13]
+edge [color="#416383",fontname="DejaVu Sans",fontsize=10]
+o [label="Buyer’s order"]
+d [label="Parcel\nOne parcel for the order"]
+u [label="Four timed updates\nLatest: Delivered"]
+o -> d [label="one parcel"]
+d -> u [label="many updates"]
+}

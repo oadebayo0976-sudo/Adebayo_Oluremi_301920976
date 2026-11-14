@@ -1,0 +1,18 @@
+digraph {
+graph [rankdir=LR,pad=.2,bgcolor=white,nodesep=.28,ranksep=.32]
+node [shape=box,style="rounded,filled",fillcolor="#e7f0fa",color="#416383",fontname="DejaVu Sans",fontsize=13]
+edge [color="#416383",fontname="DejaVu Sans",fontsize=10]
+seller [label="Seller"]
+product [label="Product\niPhone 18"]
+line [label="Order item\nOne iPhone 18"]
+buyer [label="Buyer A"]
+order [label="Buyer’s order"]
+delivery [label="Parcel"]
+updates [label="Delivery updates"]
+order -> delivery [label="has at most one"]
+delivery -> updates [label="has many"]
+seller -> product [label="lists"]
+product -> line [label="appears in"]
+buyer -> order [label="places"]
+order -> line [label="contains"]
+}
